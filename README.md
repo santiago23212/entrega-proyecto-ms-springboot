@@ -21,7 +21,6 @@ Desarrollar una aplicación Spring Boot que resuelva un problema de negocio real
 - **Entidades JPA**:  
   - Mínimo 4 entidades relacionadas (ej: `Cliente`, `Producto`, `Pedido`, `Empleado`).  
   - Diagrama UML/ER con relaciones (`@OneToMany`, `@ManyToOne`).  
-  - Trabajar con H2 o DB en linea como supabase
 - **DTOs**: Usar Data Transfer Objects para todas las operaciones de entrada/salida.
 
 ### 3. Implementación de APIs
@@ -59,8 +58,7 @@ src/
 │   │       └── exception/   # Manejo de errores
 │   └── resources/
 │       ├── application.properties
-│       └── data.sql        # Datos iniciales
-|       └── schema.sql      # Base Datos
+│       └── data.sql        # Datos iniciales (opcional)
 ```
 
 ### 6. Criterios de Evaluación - Proyecto Spring Boot
